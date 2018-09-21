@@ -1,11 +1,17 @@
 sudo:          false
-language:      node_js
-node_js:
-  - "node"
-install:       npm install
-script:
-  - npm test
-  - gulp
-cache:
-  directories:
-    - node_modules
+matrix:
+  include:
+    - language:      node_js
+      node_js:
+        - "node"
+      install:       npm install
+      script:
+        - npm test
+        - gulp
+      cache:
+        directories:
+          - node_modules
+    - language: php
+    
+notificacions:
+  email: claudio.diazp@live.cl
