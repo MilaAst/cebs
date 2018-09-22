@@ -1,4 +1,0 @@
----
-deployment:
-  tasks:
-    - cp -r ./home/cebscl/repositories/cebs_repo ./home/cebscl/public_html
