@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cebscl/public_html/:$DEPLOYPATH
+    - export DEPLOYPATH=/home/cebscl/public_html/
+    - /home/cebscl/repositories/cebs_repo *.* $DEPLOYPATH
