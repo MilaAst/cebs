@@ -1,1 +1,5 @@
 
+---
+deployment:
+  tasks:
+    - export /home/cebscl/public_html/
