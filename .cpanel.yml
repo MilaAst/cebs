@@ -2,4 +2,4 @@
 ---
 deployment:
   tasks:
-    - export /home/cebscl/repositories/cebs_repo >> /home/cebscl/public_html/
+    - export /home/cebscl/repositories/cebs_repo  /home/cebscl/public_html/
