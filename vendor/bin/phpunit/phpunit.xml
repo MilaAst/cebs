@@ -1,6 +1,0 @@
-<phpunit bootstrap="">
-  <testsuites>
-    <testsuite name="test">
-    </testsuite>
-  </testsuites>
-</phpunit>
