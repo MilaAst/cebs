@@ -8,7 +8,7 @@ php:
 before-script:
   - composer install --dev
   
-# script: vendor/bin/phpunit --configuration phpunit.xml
+script: vendor/bin/phpunit --configuration phpunit.xml
 
 notifications:
   email:
